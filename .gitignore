@@ -1,6 +1,6 @@
 venv_dash_2.0
 .env
 *.pyc
-.DS.Store
+.DS_Store
 requirements0
 requirements1
