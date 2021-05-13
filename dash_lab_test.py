@@ -40,6 +40,7 @@ tpl = dl.templates.DbcSidebar(
 )
 
 app = dash.Dash(__name__, plugins=[dl.plugins.FlexibleCallbacks()])
+server = app.server
 
 df = px.data.gapminder()
 print(df.head())
